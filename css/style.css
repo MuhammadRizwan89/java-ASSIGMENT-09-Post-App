@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "openSans";
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url(/assets/fonts/OpenSans.ttf);
+}
+
+.navbar{
+    background-color: #E91E63!important;
+    height: 60px;
+}
+
+.navbar-brand{
+    color: #ffff !important;
+}
+
+.btn-primary{
+    background-color: #E91E63 !important;
+    border-color: #E91E63 !important;
+}
+
+.img-list{
+    justify-content: space-around;
+}
+.img-list img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.img-list-selected{
+    border: 2px solid #E91E63 !important;
+}
+
+.card-body{
+    background-image: url("../assets/images/diego-ph-fIq0tET6llw-unsplash.jpg");
+    background-size: cover;
+}
+
+.swal2-actions{
+    width: 90%;
+}
+.swal2-confirm{
+    width: 90% !important;
+    background-color: #E91E63 !important;
+}
+
+
+
+@media only screen and (max-width: 500px){
+    .main{
+        padding:10px 4px !important;
+    }
+}
